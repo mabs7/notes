@@ -201,3 +201,105 @@ body {
 .prep p {
   font-style: italic;
 }
+
+
+@media screen and (max-width: 600px) {
+body {
+  margin: 0;
+}
+.header {
+  margin: 0;
+}
+.header .logotxt p{
+  padding: 0;
+  font-size: 50px;
+  margin: 25px;
+}
+.navbar {
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3px;
+  margin-top : 0;
+}
+.navbar a {
+  float: left;
+  color:#325F87;
+  text-align: center;
+  padding: 10px 10px;
+  text-decoration: none;
+  font-size: 18px;
+  text-shadow: 1px 1px black;
+  font-weight: bold;
+}
+.ms {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  /* margin-top: 20px; */
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-bottom: 20px;
+
+}
+.ms div {
+  background-color: #325F87;
+  height: 10%;
+  width: 70%;
+  margin-top: 10px;
+  padding: 20px;
+  align-content: center;
+}
+.ms div p {
+  padding: 0;
+  margin: 0;
+  color: #fffcfc;
+  text-align: center;
+  font-size: 200%;
+  font-weight: bold;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #325F87;
+  border: 2px solid red;
+}
+.footer .contact p {
+  font-size: 23px;
+  align-items: center;
+  padding: 30px;
+  padding-bottom: 20px;
+  padding-left: 0;
+  margin: 0;
+  font-weight: bold;
+  color: #fffcfc;
+  margin-top: 50px;
+}
+.footer .contact i {
+  font-size: 40px;
+  text-align: bottom;
+  padding-left: 0;
+  padding-top: 20px;
+  padding: 10px;
+  padding-left: 0;
+  margin-right: 20px;
+  color: #fffcfc;
+}
+.footer .team p {
+  margin-top: 10px;
+  padding-top: 0;
+  font-size: 23px;
+  align-items: center;
+  padding-bottom: 10px;
+  padding-left: 0;
+  font-weight: bold;
+  margin-left: 20px;
+  color: #fffcfc;
+}
+.footer .team img {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  width: 60px;
+  border-radius: 25%;
+}
+}
